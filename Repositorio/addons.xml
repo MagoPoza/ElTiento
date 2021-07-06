@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.mpz.wizard" name="[COLOR gold][B]MPZ WIZARD[/B][/COLOR]" version="1.7" provider-name="Mpz">
+<addon id="plugin.program.ElTiento.wizard" name="[COLOR gold][B]EL TIENTO[/B][/COLOR]" version="1.0" provider-name="El Tiento">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -9,22 +9,21 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">MPZ</summary>
-    <description lang="en">Addon instalador del wizard MPZ para Kodi 18
-Fuente: https://fuente-mpz.github.io/
-Telegram: t.me/MPZ_WIZARD</description>
+    <summary lang="en">El tiento</summary>
+    <description lang="en">Addon instalador del wizard EL TIENTO para Kodi 18
+</description>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="repository.mpz.repor" name="[COLOR aqua]WIZARD MPZ[/COLOR] [COLOR royalblue]REPO[/COLOR]" version="1.0" provider-name="Mpz">
-    <extension point="xbmc.addon.repository" name="repompz">
-        <info>https://raw.githubusercontent.com/MagoPoza/mago/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/MagoPoza/mago/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/MagoPoza/mago/master/Repositorio/</datadir>
+<addon id="repository.ElTiento.repor" name="[COLOR gold][B]EL TIENTO REPO[/B][/COLOR]" version="1.0" provider-name="ElTiento">
+    <extension point="xbmc.addon.repository" name="eltientorepo">
+        <info>https://raw.githubusercontent.com/MagoPoza/ElTiento/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/MagoPoza/ElTiento/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/MagoPoza/ElTiento/master/Repositorio/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Repositorio wizard mpz</summary>
+        <summary>Repositorio wizard el tiento</summary>
         <description></description>
         <disclaimer></disclaimer>
         <platform>all</platform>

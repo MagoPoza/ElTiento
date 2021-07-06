@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.ElTiento.wizard" name="[COLOR gold][B]EL TIENTO[/B][/COLOR]" version="1.0" provider-name="El Tiento">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">El tiento</summary>
+    <description lang="en">Addon instalador del wizard EL TIENTO para Kodi 18
+</description>
+    <platform>all</platform>
+  </extension>
+</addon>

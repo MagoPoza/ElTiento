@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.eltiento.repor" name="[COLOR gold][B]EL TIENTO REPO[/B][/COLOR]" version="1.0" provider-name="Mpz">
+<addon id="repository.ElTiento.repor" name="[COLOR gold][B]EL TIENTO REPO[/B][/COLOR]" version="1.0" provider-name="ElTiento">
     <extension point="xbmc.addon.repository" name="eltientorepo">
-        <info>https://raw.githubusercontent.com/MagoPoza/mago/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/MagoPoza/mago/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/MagoPoza/mago/master/Repositorio/</datadir>
+        <info>https://raw.githubusercontent.com/MagoPoza/ElTiento/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/MagoPoza/ElTiento/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/MagoPoza/ElTiento/master/Repositorio/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Repositorio wizard el tiento</summary>
