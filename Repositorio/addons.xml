@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.ElTiento.wizard" name="[COLOR gold][B]EL TIENTO[/B][/COLOR]" version="1.0" provider-name="El Tiento">
+<addon id="plugin.program.ElTiento.wizard" name="[COLOR gold][B]EL TIENTO[/B][/COLOR]" version="1.1" provider-name="El Tiento">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
